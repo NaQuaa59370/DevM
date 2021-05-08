@@ -122,7 +122,7 @@ client.on("message", async message => {
 
 
 
-client.login("process.env.TOKEN");
+client.login(process.env.TOKEN);
 
 
 client.on('ready', function () { 
