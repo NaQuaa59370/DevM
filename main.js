@@ -122,7 +122,7 @@ client.on("message", async message => {
 
 
 
-client.login("ODQwMjg4Njc4OTY1MjgwODY4.YJWB0A.BhXm6ii1ynePDzWxWUWW5xzg5bM");
+client.login("process.env.TOKEN");
 
 
 client.on('ready', function () { 
